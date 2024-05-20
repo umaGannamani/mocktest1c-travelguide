@@ -1,0 +1,38 @@
+.main-container {
+  background-color: #eef4f7;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  text-decoration: underline;
+  color: #334155;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 20px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80%;
+}
